@@ -1,6 +1,6 @@
 # Deterministic Task and Note Discovery in Core Obsidian
 
-To save you some time deciding if you want to read this: this post covers a way to manage static and actionable information (notes and tasks) in one unified setup. It is based on out-of-the-box [Obsidian](https://obsidian.md/), and doesn’t rely on any 3rd party plugins, AI, or whatnot.
+To save you some time deciding if you want to read this: this document covers a way to manage static and actionable information (notes and tasks) in one unified setup. It is based on out-of-the-box [Obsidian](https://obsidian.md/), and doesn’t rely on any 3rd party plugins, AI, or whatnot.
 
 It does rely though on quite advanced Bases queries, so implies you’re comfortable doing that. Nothing nasty — this article will guide you on the exact queries to put.
 
