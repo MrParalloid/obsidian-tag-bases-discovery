@@ -11,23 +11,6 @@ properties:
     displayName: task description
 views:
   - type: table
-    name: Related Tasks in Note
-    filters:
-      and:
-        - file.basename != this.file.name
-    order:
-      - todo
-      - file.name
-      - due
-    sort:
-      - property: todo
-        direction: ASC
-      - property: due
-        direction: DESC
-    columnSize:
-      file.name: 368
-      note.due: 176
-  - type: table
     name: All Related Tasks
     filters:
       and:
@@ -42,9 +25,6 @@ views:
     sort:
       - property: due
         direction: DESC
-    columnSize:
-      file.name: 254
-      note.due: 144
   - type: table
     name: Active Related Tasks
     filters:
@@ -58,6 +38,3 @@ views:
     sort:
       - property: due
         direction: DESC
-    columnSize:
-      file.name: 238
-      note.due: 144
