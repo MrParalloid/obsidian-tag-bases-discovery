@@ -1,0 +1,24 @@
+filters:
+  and:
+    - or:
+        - file.links.contains(this.file)
+        - file.fullname.contains(this.file.name)
+        - file.backlinks.contains(this.file)
+        - file.tags.filter(this.file.tags.contains(value)).length >= 2
+    - and:
+        - todo == null
+views:
+  - type: cards
+    name: Related Notes
+    filters:
+      and:
+        - file.name != this.file.name
+        - file.ext == "md"
+    order:
+      - file.name
+      - file.tags
+    sort:
+      - property: file.mtime
+        direction: DESC
+    cardSize: 450
+    imageAspectRatio: 0.25

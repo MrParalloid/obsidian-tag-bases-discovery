@@ -1,0 +1,63 @@
+filters:
+  and:
+    - or:
+        - todo != NULL
+    - or:
+        - file.links.contains(this.file)
+        - file.fullname.containsAny(this.file.name)
+        - due <= date(this.file.name)
+properties:
+  file.name:
+    displayName: task description
+views:
+  - type: table
+    name: Related Tasks in Note
+    filters:
+      and:
+        - file.basename != this.file.name
+    order:
+      - todo
+      - file.name
+      - due
+    sort:
+      - property: todo
+        direction: ASC
+      - property: due
+        direction: DESC
+    columnSize:
+      file.name: 368
+      note.due: 176
+  - type: table
+    name: All Related Tasks
+    filters:
+      and:
+        - file.basename != this.file.name
+    groupBy:
+      property: todo
+      direction: ASC
+    order:
+      - todo
+      - file.name
+      - due
+    sort:
+      - property: due
+        direction: DESC
+    columnSize:
+      file.name: 254
+      note.due: 144
+  - type: table
+    name: Active Related Tasks
+    filters:
+      and:
+        - file.basename != this.file.name
+        - todo != true
+    order:
+      - todo
+      - file.name
+      - due
+    sort:
+      - property: due
+        direction: DESC
+    columnSize:
+      file.name: 238
+      note.due: 144
