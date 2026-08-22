@@ -245,4 +245,4 @@ Outside of Obsidian I’ve also drafted a couple of Apple Shortcuts to create ta
 
 The simplicity of Obsidian’s “file over app” mindset coupled with the fundamental flexibility in how you can manage the information around you is just not something other tools can match today.
 
-*P.S. The Nu Ayu theme from the screenshots is [available here](https://community.obsidian.md/themes/nu-ayu).*
+*P.S. The Nu Ayu theme from the screenshots is [available here](https://community.obsidian.md/themes/nu-ayu) (or directly from [GitHub](https://github.com/MrParalloid/nu-ayu/tree/main)).*
