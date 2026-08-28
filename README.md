@@ -9,7 +9,7 @@ The benefits you can count on, should you decide to implement similar approach, 
 - Unified context for tasks and notes — you don’t chase it, it just appears when you need it;
 - Single entry for notes and tasks allows you to capture fast, streamline automation, and resurface existing knowledge when you need it;
 - No MOC maintenance burden — related notes “magically” appear in your sidebar wherever you are, no matter which note or task you’re in; the setup doesn’t even mandate you to *link* stuff together to see it in one place.
-- Doesn’t depend on any file or logical organization — nothing is blocking you from dumping everything into one single flat folder, if you wish so.
+- Doesn’t depend on any file or logical organization — nothing is blocking you from dumping everything into one single flat folder, if you wish to do so.
 
 All of that is possible thanks to [Obsidian Bases](https://obsidian.md/help/bases) dragged to a sidebar.
 
