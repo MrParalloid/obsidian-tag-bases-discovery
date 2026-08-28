@@ -1,5 +1,5 @@
 # The List of potential queries for the Related Notes base
-This short note lists potential Obsidian Bases queries that you can include use to build your own deterministic note discovery engine. I'll be using "this note" as a convention of the file you're looking at — so the queries below will be returing the results in your Related Notes sidebar against this active file.
+This short note lists potential Obsidian Bases queries that you can include use to build your own deterministic note discovery engine. I'll be using "this note" as a convention of the main file the queries below will be returing the results against. In Obsidian Bases, this is normally represented by `this.file` element.
 
 - `file.links.contains(this.file)` - list any files that contain this note in their links (backlinks)
 - `file.backlinks.contains(this.file)` - lists all the notes this note links to (outgoing links)
