@@ -2,7 +2,7 @@
 
 To save you some time deciding if you want to read this: this document covers a way to manage static and actionable information (notes and tasks) in one unified setup. It is based on out-of-the-box [Obsidian](https://obsidian.md/), and doesn’t rely on any 3rd party plugins, AI, or whatnot.
 
-It does rely though on quite advanced Bases queries, so implies you’re comfortable doing that. Nothing nasty — this article will guide you on the exact queries to put + the real bases files from my setup you can download from the repo.
+It does rely though on quite advanced Bases queries, so implies you’re comfortable doing that. Nothing nasty — this article will guide you on the [exact queries to put](https://github.com/MrParalloid/obsidian-tag-bases-discovery/blob/main/Queries%20List.md) + the real bases files from my setup you can download from the repo.
 
 The benefits you can count on, should you decide to implement similar approach, are around these lines:
 
@@ -155,7 +155,7 @@ views:
   - type: table
     name: Table
 ```
-The list of other potential queries has been forked in a [separate document](Queries List.md) — please make sure to check it
+The list of other potential queries has been forked in a [separate document](https://github.com/MrParalloid/obsidian-tag-bases-discovery/blob/main/Queries%20List.md) — please make sure to check it.
 
 The fourth rule above deserves a bit more attention.
 
