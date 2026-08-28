@@ -4,8 +4,8 @@ This short note lists potential Obsidian Bases queries that you can include use 
 - `file.links.contains(this.file)` - list any files that contain this note in their links (backlinks)
 - `file.backlinks.contains(this.file)` - lists all the notes this note links to (outgoing links)
 - `file.fullname.contains(this.file.name)` - lists notes that contain this note's name in their filename
-- `file.tags.filter(this.file.tags.contains(value)).length >= 2` - the 2-tag overlap rule. If note share at least **2** tags with this note, they show up in the results
-- `this.file.links.length > 1 && file.links.filter(this.file.links.contains(value)).length == this.file.links.length` - if the notes share **all** the outgoing links this note has, the get into results
+- `file.tags.filter(this.file.tags.contains(value)).length >= 2` - the 2-tag overlap rule. If a note shares at least **2** tags with this note, it shows up in the results
+- `this.file.links.length > 1 && file.links.filter(this.file.links.contains(value)).length == this.file.links.length` - if the notes share **all** the outgoing links this note has, the get into results. Has to be more than 1 link in common.
 - `this.aliases != null && list(this.aliases).filter(file.name.contains(value)).length > 0` - lists all the notes that contain this file's aliases in their filenames
 - `author != null && list(this.author).filter(author.contains(value)).length > 0` - lists all the documents or articles authored by the same author
 - `project != null && project == this.project` - lists all the notes that belong to the same project
