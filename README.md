@@ -185,10 +185,9 @@ It’s like chunking done manually: when you split the meaning into pieces that 
 
 The figure **2** in the “2 tag rule” is the easiest entry point into the sense-making territory. But as your vault grows, it can easily be replaced by **3** (i.e. three tags must overlap) to make matches even stronger — especially if you do not hesitate to label your notes with keywords.
 
-![Note discovery on full manual](https://substackcdn.com/image/fetch/$s_!aZcT!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F794dac1e-b3d3-474f-9a2d-4f238afcf562_2414x1522.png)
-
-
 ### The Part for Nerds
+
+![Note discovery on full manual](https://substackcdn.com/image/fetch/$s_!aZcT!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F794dac1e-b3d3-474f-9a2d-4f238afcf562_2414x1522.png)
 
 You can actually go beyond this — Obsidian allows you to perform mind-blowing experiments in Bases.
 
@@ -225,8 +224,6 @@ file.tags.containsAny(this.file.tags)
 You still have to do the tagging job — but it’s still you, not some AI in your vault. Full control.
 
 
-![](https://substackcdn.com/image/fetch/$s_!7Mg0!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01750427-db3a-4b0a-9153-4600e9d40cca_2360x1816.png)
-
 ## The Result
 
 The mechanisms outlined in this article remain very much interesting to explore, yet already prove themselves quite effective. The amount of times the Related notes sidebar surprised me with meaningful notes I forgot I have or didn’t know I have is countless. It just works.
@@ -240,3 +237,5 @@ Outside of Obsidian I’ve also drafted a couple of Apple Shortcuts to create ta
 The simplicity of Obsidian’s “file over app” mindset coupled with the fundamental flexibility in how you can manage the information around you is just not something other tools can match today.
 
 *P.S. The Nu Ayu theme from the screenshots is [available here](https://community.obsidian.md/themes/nu-ayu) (or directly from [GitHub](https://github.com/MrParalloid/nu-ayu/tree/main)).*
+
+![](https://substackcdn.com/image/fetch/$s_!7Mg0!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01750427-db3a-4b0a-9153-4600e9d40cca_2360x1816.png)
