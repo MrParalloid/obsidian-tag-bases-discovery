@@ -155,8 +155,7 @@ views:
   - type: table
     name: Table
 ```
-
-*Don’t forget to create a standalone* `.base` *file to drag it around*
+The list of other potential queries has been forked in a [separate document](Queries List.md) — please make sure to check it
 
 The fourth rule above deserves a bit more attention.
 
