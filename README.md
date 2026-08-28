@@ -47,13 +47,6 @@ The hidden strength of tags is in the ability to combine them. The nature of tag
 
 As you will see, proper tag management sometimes can go as far as removing the requirement to make a link to see related elements next to each other.
 
----
-
-To my knowledge, currently none of the mainstream tools allow this without significant ongoing manual work. Even AI mounted on top of the vault will have hard times to understand what’s important with the correct relations and dependencies.
-
-![](https://substackcdn.com/image/fetch/$s_!5gx2!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e07b6e6-9014-462f-8bda-ab90494cf13f_2360x1872.png)
-
-Daily note example — purely operational; I don’t use them for journalling
 
 ### The Setup
 
