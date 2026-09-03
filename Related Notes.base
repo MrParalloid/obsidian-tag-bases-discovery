@@ -5,15 +5,15 @@ filters:
         - file.fullname.contains(this.file.name)
         - file.backlinks.contains(this.file)
         - file.tags.filter(this.file.tags.contains(value)).length >= 2
-    - and:
-        - todo == null
+        - this.aliases != null && list(this.aliases).filter(file.name.contains(value)).length > 0
+    - todo == null
+    - file.name != this.file.name
 views:
   - type: cards
     name: Related Notes
-    filters:
-      and:
-        - file.name != this.file.name
-        - file.ext == "md"
+    groupBy:
+      property: file.folder
+      direction: ASC
     order:
       - file.name
       - file.tags
