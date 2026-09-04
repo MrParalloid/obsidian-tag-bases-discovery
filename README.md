@@ -238,4 +238,7 @@ The simplicity of Obsidian’s “file over app” mindset coupled with the fund
 
 *P.S. The Nu Ayu theme from the screenshots is [available here](https://community.obsidian.md/themes/nu-ayu) (or directly from [GitHub](https://github.com/MrParalloid/nu-ayu/tree/main)).*
 
+Video, explaining the setup with more illustrations:
+https://www.youtube.com/watch?v=4GDxcq0-YN4
+
 ![](https://substackcdn.com/image/fetch/$s_!7Mg0!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01750427-db3a-4b0a-9153-4600e9d40cca_2360x1816.png)
